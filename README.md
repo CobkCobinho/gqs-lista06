@@ -4,7 +4,7 @@ Um projeto simples desenvolvido em Java que permite ao usuário informar dois n�
 
 📋 Sobre o projeto
 
-A aplicação utiliza o Scanner para receber dois valores digitados pelo usuário, realiza a soma e exibe o resultado no terminal.
+A aplicação utiliza a classe Scanner para receber dois valores digitados pelo usuário, realizar a soma e exibir o resultado no terminal.
 
 Este projeto é indicado para quem está começando a estudar Java, especialmente conceitos como:
 
@@ -52,12 +52,12 @@ public class CalculadoraSoma {
 ▶️ Como executar
 1. Verifique se o Java está instalado
 
-No terminal, execute:
+Abra o terminal e execute:
 
 java -version
 
 
-Caso o Java esteja instalado, a versão será exibida.
+Se o Java estiver instalado corretamente, a versão instalada será exibida.
 
 2. Clone o repositório
 git clone https://github.com/seu-usuario/calculadora-soma.git
@@ -70,7 +70,7 @@ cd calculadora-soma
 3. Compile o programa
 javac CalculadoraSoma.java
 
-4. Execute
+4. Execute o programa
 java CalculadoraSoma
 
 🖥️ Exemplo de execução
@@ -80,7 +80,7 @@ Resultado: 35.0
 
 📚 Como funciona
 
-O programa segue estas etapas:
+O programa executa as seguintes etapas:
 
 Importa a classe Scanner.
 
@@ -92,10 +92,16 @@ Solicita o segundo número.
 
 Soma os dois valores.
 
+Armazena o resultado na variável resultado.
+
 Exibe o resultado no terminal.
 
-Fecha o Scanner.
+Fecha o objeto Scanner.
+
+🎯 Objetivo
+
+O objetivo deste projeto é praticar os conceitos básicos da linguagem Java por meio da criação de uma aplicação simples de entrada, processamento e saída de dados.
 
 📝 Licença
 
-Este projeto é disponibilizado para fins educacionais e pode ser utilizado livremente para estudos e aprendizado.
+Este projeto foi desenvolvido para fins educacionais e pode ser utilizado livremente para estudos e aprendizado.
