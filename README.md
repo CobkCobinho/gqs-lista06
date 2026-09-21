@@ -1,107 +1,41 @@
-🧮 Calculadora de Soma em Java
+# Calculadora de Soma em Java
 
-Um projeto simples desenvolvido em Java que permite ao usuário informar dois números e calcular a soma entre eles.
+Este é um programa simples escrito em Java que solicita ao usuário a entrada de dois números, realiza a adição entre eles e exibe o resultado na tela.
 
-📋 Sobre o projeto
+## 🚀 Como funciona
 
-A aplicação utiliza a classe Scanner para receber dois valores digitados pelo usuário, realizar a soma e exibir o resultado no terminal.
+O algoritmo utiliza a classe `Scanner` para capturar a entrada de dados pelo terminal. Ele lê dois valores do tipo `double` (permitindo números inteiros e decimais), soma esses valores e imprime o resultado final.
 
-Este projeto é indicado para quem está começando a estudar Java, especialmente conceitos como:
+## 📋 Pré-requisitos
 
-Entrada de dados pelo usuário
+Para compilar e executar este programa, você precisará ter o **Java Development Kit (JDK)** instalado na sua máquina.
 
-Variáveis
+*   Para verificar se você possui o Java instalado, abra o terminal e digite:
+    ```bash
+    java -version
+    ```
 
-Operadores matemáticos
+## ⚙️ Como executar
 
-Tipos de dados
+1. **Salve o arquivo:** Crie um arquivo chamado `CalculadoraSoma.java` e cole o código nele.
+2. **Compile o código:** Abra o terminal na mesma pasta onde o arquivo foi salvo e digite o comando abaixo para compilar:
+    ```bash
+    javac CalculadoraSoma.java
+    ```
+3. **Execute o programa:** Após a compilação (um arquivo `CalculadoraSoma.class` será gerado), rode o programa com o comando:
+    ```bash
+    java CalculadoraSoma
+    ```
 
-Estrutura básica de um programa Java
+## 💻 Exemplo de Uso
 
-🚀 Tecnologias utilizadas
+```text
+Digite o primeiro número: 10.5
+Digite o segundo número: 5.2
+Resultado: 15.7
+```
 
-Java
+## 🛠️ Tecnologias Utilizadas
 
-java.util.Scanner
-
-📂 Estrutura do projeto
-calculadora-soma/
-└── CalculadoraSoma.java
-
-💻 Código
-import java.util.Scanner;
-
-public class CalculadoraSoma {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Digite o primeiro número: ");
-        double numero1 = scanner.nextDouble();
-
-        System.out.print("Digite o segundo número: ");
-        double numero2 = scanner.nextDouble();
-
-        double resultado = numero1 + numero2;
-
-        System.out.println("Resultado: " + resultado);
-
-        scanner.close();
-    }
-}
-
-▶️ Como executar
-1. Verifique se o Java está instalado
-
-Abra o terminal e execute:
-
-java -version
-
-
-Se o Java estiver instalado corretamente, a versão instalada será exibida.
-
-2. Clone o repositório
-git clone https://github.com/seu-usuario/calculadora-soma.git
-
-
-Entre na pasta do projeto:
-
-cd calculadora-soma
-
-3. Compile o programa
-javac CalculadoraSoma.java
-
-4. Execute o programa
-java CalculadoraSoma
-
-🖥️ Exemplo de execução
-Digite o primeiro número: 10
-Digite o segundo número: 25
-Resultado: 35.0
-
-📚 Como funciona
-
-O programa executa as seguintes etapas:
-
-Importa a classe Scanner.
-
-Cria um objeto Scanner para receber dados do teclado.
-
-Solicita o primeiro número ao usuário.
-
-Solicita o segundo número.
-
-Soma os dois valores.
-
-Armazena o resultado na variável resultado.
-
-Exibe o resultado no terminal.
-
-Fecha o objeto Scanner.
-
-🎯 Objetivo
-
-O objetivo deste projeto é praticar os conceitos básicos da linguagem Java por meio da criação de uma aplicação simples de entrada, processamento e saída de dados.
-
-📝 Licença
-
-Este projeto foi desenvolvido para fins educacionais e pode ser utilizado livremente para estudos e aprendizado.
+*   **Java** - Linguagem de programação.
+*   **java.util.Scanner** - Biblioteca padrão utilizada para entrada de dados.
