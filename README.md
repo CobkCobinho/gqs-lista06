@@ -1,0 +1,1 @@
+# gqs-lista06
